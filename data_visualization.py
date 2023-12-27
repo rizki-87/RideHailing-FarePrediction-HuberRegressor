@@ -16,7 +16,8 @@ st.image(image, caption='Uber VS Lyft')
 st.write (' ## Description :')
 st.write ('On this page, I will present visualizations and insights into the pricing trends of Uber and Lyft rides from November 2018 to December 2018. The dataset is available for download at [here](https://www.kaggle.com/datasets/brllrb/uber-and-lyft-dataset-boston-ma). ')
 
-df = pd.read_csv(r'D:\PORTOFOLIO\RideHailing-FarePrediction-LinearRegression\rideshare_kaggle.csv')
+google_drive_link = https://drive.google.com/uc?export=download&id=/1Sdr4wwBpy9M5HzBWIMQyolk5dgypRMeR/view?usp=sharing 
+df = pd.read_csv(google_drive_link)
 # st.dataframe(df)
 st.write("A Brief Overview of the Raw DataFrame:", df.head())
 
